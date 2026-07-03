@@ -3,6 +3,9 @@
 
 ---
 
+![Project Diagram](./diagram.png)
+
+
 ## 🎯 Our Mission
 
 Our mission is to engineer a **lightweight, clean, and highly efficient** cloud-native foundation for modern e-commerce. Built to strip away the bloat often found in enterprise retail systems, this open-source ecosystem serves as a premier **case study and rapid-prototyping sandbox** for developers and businesses looking to test, validate, and deploy cutting-edge e-commerce features at scale.
