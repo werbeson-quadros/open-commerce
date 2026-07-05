@@ -1,0 +1,2 @@
+./source/mvnw text eol=lf
+./source/*.cmd text eol=crlf

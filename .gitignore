@@ -1,0 +1,65 @@
+# =========================================================================
+# Gitignore para Projeto Java Spring Boot
+# Estrutura: O projeto está em ./source e este arquivo fica na raiz (./)
+# =========================================================================
+
+# --- Compilação e Arquivos de Saída (Maven/Gradle dentro de ./source) ---
+source/target/
+source/bin/
+source/build/
+source/out/
+source/.gradle/
+source/build.gradle.kts.lock
+source/gradle-app.setting
+source/gpars_*.gradle
+
+# --- Arquivos de Pacotes (Gerados por builds) ---
+source/*.jar
+source/*.war
+source/*.zip
+source/*.tar.gz
+source/*.rar
+
+# --- IDEs e Editores de Código ---
+# Eclipse
+source/.metadata/
+source/.classpath
+source/.project
+source/.settings/
+source/*.launch
+source/*.factorypath
+
+# IntelliJ IDEA
+source/.idea/
+source/*.iws
+source/*.iml
+source/*.ipr
+source/out/
+
+# NetBeans
+source/nbproject/private/
+source/nbbuild/
+source/dist/
+source/nbproject/maven-impl.xml
+source/nbproject/profiler-build-impl.xml
+
+# VS Code
+source/.vscode/
+
+# --- Logs e Arquivos Temporários ---
+source/*.log
+source/logs/
+source/tmp/
+source/temp/
+
+# --- Configurações de Ambiente / Segredos ---
+source/src/main/resources/application-local.properties
+source/src/main/resources/application-local.yml
+source/src/main/resources/application-local.yaml
+source/.env
+source/.env.*
+
+# --- Sistema Operacional ---
+.DS_Store
+Thumbs.db
+Desktop.ini
